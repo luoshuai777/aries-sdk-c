@@ -8,7 +8,6 @@ c = meson.get_compiler('c')
 i2c = meson.get_compiler('c').find_library('i2c')
 incdir = include_directories('examples/include', 'include')
 
-
 executable('aries-sdk-c-test',
             'source/aries_api.c',
             'source/aries_i2c.c',
