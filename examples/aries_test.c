@@ -38,7 +38,7 @@ int main(void)
     AriesI2CDriverType* i2cDriver;
     AriesErrorType rc;
     int ariesHandle;
-    int i2cBus = 1;
+    int i2cBus = 6;
     int ariesSlaveAddress = 0x20;
 
     // Enable SDK-level debug prints
